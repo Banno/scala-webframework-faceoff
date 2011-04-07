@@ -1,0 +1,16 @@
+;; This config was generated using ensime-config-gen. Feel free to customize its contents manually.
+
+(
+
+:project-package "com.banno"
+
+:use-sbt t
+
+:sbt-subprojects (
+                  (:name "unfiltered-jetty" :deps ())
+                  (:name "unfiltered-netty" :deps ())
+                  (:name "spray" :deps ())
+                  (:name "blueeyes" :deps ())
+                  (:name "mist" :deps ()))
+
+)
